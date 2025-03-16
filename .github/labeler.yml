@@ -1,0 +1,28 @@
+# .github/labeler.yml
+
+# This configuration applies labels based on file paths changed in the push
+# If files under a certain path are modified, a corresponding label is applied.
+
+# Label for changes related to documentation
+docs:
+  - "**/*.md"
+  - "**/docs/**"
+
+# Label for changes in code files
+code:
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.py"
+  - "**/*.php"
+
+# Label for changes related to configuration files
+config:
+  - "**/*.json"
+  - "**/*.yaml"
+  - "**/*.yml"
+
+# Label for changes related to tests
+tests:
+  - "**/*.test.js"
+  - "**/*.spec.js"
+  - "**/tests/**"
